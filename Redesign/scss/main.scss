@@ -1,0 +1,14 @@
+@import 
+//variables
+$primary-colour; #fff;
+$text-colour: grey;
+//maps
+$font-weights:{
+    "regular": 400,
+    "medium": 500,
+    "bold": 700
+};
+//calling a map
+body{
+    font-weight: map-get($font-weights, bold)
+}
